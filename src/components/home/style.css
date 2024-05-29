@@ -1,0 +1,8 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 300px;
+    max-width: 400px;
+    width: auto;
+}

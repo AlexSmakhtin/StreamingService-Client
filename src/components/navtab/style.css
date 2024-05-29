@@ -1,0 +1,32 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    gap: 60px;
+    font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+    .navContainer {
+        width: 370px;
+        gap: 23px;
+        font-size: 15px;
+    }
+}
+.mdContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.mdContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

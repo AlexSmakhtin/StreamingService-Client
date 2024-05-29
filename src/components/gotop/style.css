@@ -1,0 +1,20 @@
+.goTopContainer {
+    position: fixed;
+    background-color: transparent;
+    bottom: 140px;
+    right: 100px;
+    transition: opacity 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+    .goTopContainer {
+        display: none;
+    }
+}
+
+.goTopContainer.show {
+    opacity: 1;
+}
+
+.goTopContainer.hide {
+    opacity: 0;
+}

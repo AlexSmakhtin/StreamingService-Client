@@ -1,0 +1,13 @@
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.linkIconsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}

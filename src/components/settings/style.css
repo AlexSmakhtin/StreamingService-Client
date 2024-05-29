@@ -1,0 +1,48 @@
+.settingBtns {
+    justify-content: start;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin-right: 2px;
+    height: min-content;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+}
+
+.settingsContent {
+    text-align: center;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: min-content;
+}
+
+.newFormBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subsList {
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

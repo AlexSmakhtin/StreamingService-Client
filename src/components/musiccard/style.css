@@ -1,0 +1,33 @@
+.cardBodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardBodyButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    gap: 5px;
+}
+
+.textSelect {
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+.btnsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.addToPlaylistContainer{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    position: relative;
+}
+

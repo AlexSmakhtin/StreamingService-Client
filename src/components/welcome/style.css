@@ -1,0 +1,27 @@
+.welcomeDataContainer {
+    display: flex;
+    flex-direction: row;
+    width: calc(45vw + 70px);
+    margin-top: 30px;
+    height: calc(100vh - 50px);
+    justify-content: center;
+}
+
+.welcomeMainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.moveLeftContainer {
+    display: flex;
+    height: calc(100vh - 50px);
+    padding-top: calc(50vh - 50px);
+    padding-right: 10px;
+}
+
+.moveRightContainer {
+    display: flex;
+    height: calc(100vh - 50px);
+    padding-top: calc(50vh - 50px);
+    padding-left: 10px;
+}

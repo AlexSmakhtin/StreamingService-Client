@@ -1,0 +1,74 @@
+.playerContainer {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+    border-top: 1px solid lightgray;
+}
+
+.sliderPlayerContainer {
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.playerBtnsContainer {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.playerAuthorTrack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .playerContainer {
+        height: 170px;
+    }
+}
+
+
+.currentPlaylistContainer {
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+    position: fixed;
+    bottom: 120px;
+    height: 400px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    transition: height 0.3s ease;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .currentPlaylistContainer {
+        bottom: 170px;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.currentPlaylistContainer.open {
+    height: 30px;
+    overflow-y: unset;
+}
